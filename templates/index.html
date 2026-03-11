@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>AI Resume Analyzer</title>
+</head>
+
+<body>
+
+<h2>AI Resume Analyzer</h2>
+
+<form method="POST" enctype="multipart/form-data">
+
+Upload Resume (PDF)
+<br><br>
+
+<input type="file" name="resume" required>
+
+<br><br>
+
+Paste Job Description
+<br><br>
+
+<textarea name="jd" rows="10" cols="60"></textarea>
+
+<br><br>
+
+<button type="submit">Analyze Resume</button>
+
+</form>
+
+<h3>Result</h3>
+<pre>{{result}}</pre>
+
+</body>
+
+</html>
